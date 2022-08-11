@@ -5,7 +5,7 @@ double A = double.Parse(Letterdig1);
 
 double B = 2;
 
-while(B < A)
+while(B <= A)
 {
     Console.Write($"{B}, ");
         B = B + 2;
